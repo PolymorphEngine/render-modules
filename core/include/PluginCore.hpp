@@ -1,3 +1,5 @@
+#pragma once
+
 #include <polymorph/api/plugin/APlugin.hpp>
 #include <polymorph/config/XmlComponent.hpp>
 
@@ -20,6 +22,9 @@ namespace polymorph::engine::api
 
             void createConfig(std::vector<std::shared_ptr<APluginConfig>> &configs) override;
 
+            std::unique_ptr<AComponentFactory> createComponentFactory() override;
+
+            std::unique_ptr<ASerializableObjectFactory> createSerializableObjectFactory() override;
     };
 
 } // namespace polymorph::engine::api
