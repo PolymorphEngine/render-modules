@@ -1,5 +1,6 @@
 #include "../include/PluginCore.hpp"
 #include "../../factory/include/ComponentFactory.hpp"
+#include "../../factory/include/SerializableObjectFactory.hpp"
 
 namespace polymorph::engine::api
 {
@@ -29,11 +30,11 @@ namespace polymorph::engine::api
 
     std::unique_ptr<AComponentFactory> PluginCore::createComponentFactory()
     {
-        return std::dynamic_pointer_cast<AComponentFactory>(std::make_shared<ComponentFactory>());
+        return std::unique_ptr<AComponentFactory>(new ComponentFactory());
     }
 
     std::unique_ptr<ASerializableObjectFactory> PluginCore::createSerializableObjectFactory()
     {
-        return std::dynamic_pointer_cast<ASerializableObjectFactory>(std::make_shared<ASerializableObjectFactory>());
+        return std::unique_ptr<ASerializableObjectFactory>(new SerializableObjectFactory());
     }
 }
