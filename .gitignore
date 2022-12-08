@@ -1,3 +1,12 @@
+./cmake-build-debug/
+./build/
+./build-debug/
+./.idea/
+./cmake-build-debug/*
+./build/*
+./build-debug/*
+./.idea/*
+
 # Prerequisites
 *.d
 
@@ -10,6 +19,7 @@
 # Precompiled Headers
 *.gch
 *.pch
+IPlugin.hpp
 
 # Compiled Dynamic libraries
 *.so
@@ -30,3 +40,10 @@
 *.exe
 *.out
 *.app
+
+
+.idea
+cmake-build-debug
+build
+build-debug
+Plugins
