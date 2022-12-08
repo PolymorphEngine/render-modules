@@ -8,6 +8,7 @@ namespace polymorph::engine::api
     class PluginCore : public APlugin
     {
         public:
+            PluginCore(config::XmlNode &data, Engine &game, std::string PluginsPath);
             ~PluginCore() override = default;
 
             void preUpdateInternalSystems(std::shared_ptr<Scene> &scene) override;
