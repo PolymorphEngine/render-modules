@@ -1,9 +1,16 @@
 #include "../include/PluginCore.hpp"
 #include "../../factory/include/ComponentFactory.hpp"
 #include "../../factory/include/SerializableObjectFactory.hpp"
+#include <polymorph/api/plugin/Symbols.hpp>
 
 namespace polymorph::engine::api
 {
+    PluginCore::PluginCore(config::XmlNode &data, Engine &game,
+                           std::string PluginsPath)
+            : APlugin(data, game, PluginsPath)
+    {
+
+    }
     void PluginCore::preUpdateInternalSystems(std::shared_ptr<Scene> &scene)
     {
     }
@@ -37,4 +44,10 @@ namespace polymorph::engine::api
     {
         return std::unique_ptr<ASerializableObjectFactory>(new SerializableObjectFactory());
     }
+}
+
+EXPORT_MODULE polymorph::engine::api::APlugin *createPlugin(polymorph::engine::config::XmlNode &data,
+                                                            polymorph::engine::Engine &game, std::string PluginsPath)
+{
+    return new polymorph::engine::api::PluginCore(data, game, std::move(PluginsPath));
 }
