@@ -1,7 +1,7 @@
 #include "../include/PluginCore.hpp"
 #include "../../factory/include/ComponentFactory.hpp"
 #include "../../factory/include/SerializableObjectFactory.hpp"
-#include <polymorph/api/plugin/Symbols.hpp>
+#include <polymorph/engine/api/plugin/Symbols.hpp>
 
 namespace polymorph::engine::api
 {

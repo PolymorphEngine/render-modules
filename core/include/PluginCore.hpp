@@ -1,7 +1,7 @@
 #pragma once
 
-#include <polymorph/api/plugin/APlugin.hpp>
-#include <polymorph/config/XmlComponent.hpp>
+#include <polymorph/engine/api/plugin/APlugin.hpp>
+#include <polymorph/engine/config/XmlComponent.hpp>
 
 namespace polymorph::engine::api
 {

@@ -7,7 +7,7 @@
 
 #pragma once
 #include <string>
-#include <polymorph/api/plugin/Symbols.hpp>
+#include <polymorph/engine/api/plugin/Symbols.hpp>
 
 namespace polymorph::graphical
 {

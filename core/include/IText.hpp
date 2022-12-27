@@ -8,7 +8,7 @@
 #pragma once
 
 #include <string>
-#include <polymorph/api/plugin/Symbols.hpp>
+#include <polymorph/engine/api/plugin/Symbols.hpp>
 #include "IFont.hpp"
 
 namespace polymorph::graphical

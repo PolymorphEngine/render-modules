@@ -9,7 +9,7 @@
 #pragma once
 
 #include <unordered_map>
-#include "polymorph/api/scripting/ASerializableObjectFactory.hpp"
+#include "polymorph/engine/api/scripting/ASerializableObjectFactory.hpp"
 
 namespace polymorph::engine::api
 {
