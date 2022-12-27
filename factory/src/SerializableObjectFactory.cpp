@@ -5,7 +5,7 @@
 ** SerializableObjectFactory.cpp
 */
 
-#include "../include/SerializableObjectFactory.hpp"
+#include "SerializableObjectFactory.hpp"
 
 polymorph::engine::api::SerializableObjectFactory::SerializableObjectFactory()
 : ASerializableObjectFactory()
