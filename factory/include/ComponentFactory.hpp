@@ -8,7 +8,7 @@
 #pragma once
 
 #include <unordered_map>
-#include <polymorph/api/scripting/AComponentFactory.hpp>
+#include "polymorph/engine/api/scripting/AComponentFactory.hpp"
 
 namespace polymorph::engine::api
 {
