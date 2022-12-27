@@ -5,7 +5,7 @@
 ** ComponentFactory.cpp
 */
 
-#include "../include/ComponentFactory.hpp"
+#include "ComponentFactory.hpp"
 
 polymorph::engine::api::ComponentFactory::ComponentFactory() : AComponentFactory()
 {
