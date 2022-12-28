@@ -1,4 +1,4 @@
-<Plugin name="plugin-template">
+<Plugin name="render-modules">
     <Templates>
     </Templates>
     <Prefabs>
