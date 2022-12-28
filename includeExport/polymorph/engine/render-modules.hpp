@@ -4,12 +4,12 @@
  * 
  */
 
-#include "../../core/include/IText.hpp"
-#include "../../core/include/ITexture.hpp"
-#include "../../core/include/ICamera.hpp"
-#include "../../core/include/ICursor.hpp"
-#include "../../core/include/IFont.hpp"
-#include "../../core/include/IDrawer.hpp"
-#include "../../core/include/IWindow.hpp"
-#include "../../core/include/ISound.hpp"
-#include "../../core/include/IMusic.hpp"
+#include "../../../core/include/IText.hpp"
+#include "../../../core/include/ITexture.hpp"
+#include "../../../core/include/ICamera.hpp"
+#include "../../../core/include/ICursor.hpp"
+#include "../../../core/include/IFont.hpp"
+#include "../../../core/include/IDrawer.hpp"
+#include "../../../core/include/IWindow.hpp"
+#include "../../../core/include/ISound.hpp"
+#include "../../../core/include/IMusic.hpp"
